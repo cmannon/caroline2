@@ -1,0 +1,234 @@
+body{
+
+}
+
+ul {
+	list-style: none;
+
+}
+
+ /* This is a comment. */
+
+}
+p {
+	margin: 0;
+}
+
+.special{
+	color: black;
+	font-weight: none;
+}
+
+.top-section{
+	<!-- background-image: url("runway.jpg");
+	background-size: cover;
+	width: 100%; -->
+}
+
+.content{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.nav-bar h1 {
+	text-align: center;
+	color: black;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.nav-bar ul{
+	text-align: center;
+	border-bottom: 3px solid black;
+	padding: 10px
+	margin: 0 auto;
+}
+
+.nav-bar li{
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.nav-bar a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-bar{
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+.profile-pic img{
+	border-radius: 100%;
+	border: 3px solid white;
+	width: 350px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.heading{
+	text-align: center;
+	font-family: 'Quattrocento Sans', sans-serif;
+	width: 49%;
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.profile-pic{
+	width: 49%;
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.my-work{
+	text-align: center;
+	padding-bottom: 15px;
+	background-image: url("skyline.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.about-title{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.radical{
+	width: 29%;
+	display: inline-block;
+	padding-left: 2%;
+	padding-right: 2%;
+
+}
+
+.wireframe{
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.willowtree{
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.radical-img img{
+	width: 100px;
+	position: center;
+	margin-bottom: 40px;
+
+}
+
+.wireframe-img img{
+	width: 100px;
+	position: center;
+
+}
+
+.willowtree-img img{
+	width: 100px;
+	position: center;
+}
+
+.bottom-section{
+	background: white;
+}
+
+.contact-me{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.telephone img{
+	border: none;
+	width: 30px;
+}
+
+.email img{
+	border: none;
+	width: 30px;
+}
+
+.telephone{
+	padding: 25px;
+}
+.email{
+	padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 900px){
+	.radical, .wireframe, .willowtree, .profile-pic, .heading {
+		display: block;
+		width: 100%;
+	}
+}
+
+.background {
+	width: 400px;
+	height: 300px;
+	position: relative;
+}
+
+.headline {
+	width:100px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+
+.column{
+	display: inline-block;
+	width: 33%;
+	height: 300px;
+	position: relative;
+}
+
+.box1{
+	background: url('https://media.timeout.com/images/101705313/image.jpg');
+	background-size: cover;	
+}
+
+.box2{
+	background: url('http://farm4.static.flickr.com/3578/3418914277_6c2bc75f6a.jpg');
+	background-size: cover;
+}
+
+.box3{
+	background: url('http://hdrny.com/wp-content/uploads/2012/08/Jul2-12ManhattanSkyline-267-ed1.jpg');
+	background-size: cover;
+}
+
+.box-content{
+	font-family: Arial;
+	position: absolute;
+	bottom: 0;
+}
+
+a {
+	color: white;
+	padding: 5px;
+	padding-bottom: 0px;
+}
+
+
+
